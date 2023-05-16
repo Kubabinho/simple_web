@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1>Login</h1>
+    <form>
+      <label for="account-number">Account nr:</label>
+      <input type="text" id="account-number" name="account-number" required>
+      
+      <label for="pin">PIN:</label>
+      <input type="password" id="pin" name="pin" required>
+      
+      <button type="submit" onclick="login(event)">Login</button>
+    </form>
+    
+    <div id="bank-form" style="display:none;">
+        <h2>Hello, <span id="username"></span>!</h2>
+        <p>Balance: $<span id="balance"></span></p>
+      
+        <form>
+            <label for="transaction-type">what do you want to do:</label>
+            <select id="transaction-type" name="transaction-type" required>
+            <option value="">choose</option>
+                <option value="deposit">deposit</option>
+                <option value="withdraw">withdraw</option>
+            </select>
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount" min="0" step="0.01" required>
+            <button type="submit" onclick="makeTransaction(event)">do</button>
+        </form>
+        <button onclick="logout()">Logout</button>
+    </div>
+<script src="bankJs.js"></script>
+</body>
+</html>
