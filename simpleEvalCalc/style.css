@@ -1,0 +1,16 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+    height: 300;
+    width: 300;
+}
+table, tr, td{
+    border: 1px solid black;
+}
+input[type="button"]{
+    height: 50;
+    width: 70;
+}
+input[type="text"]{
+    width: 300;
+}
