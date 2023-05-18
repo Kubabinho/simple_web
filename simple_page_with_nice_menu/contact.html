@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="frame" id="contact">
+            <header class="header">
+                <h1>Autor info</h1>
+            </header>
+            <section class="columns">
+                <h2>Kubabinho</h2>
+            </section>
+            <section class="columns">
+            <h1>Contact form</h1>
+            <form action="https://example.site/mail@example.com" method="POST">
+                <label>
+                    your mail
+                    <br>
+                    <input name="from" placeholder="your mail">
+                </label>
+                <br>
+                <label>
+                    subject
+                    <br>
+                    <input name="subject" placeholder="write your topic">
+                </label>
+                <br>
+                <label for="inp-message">
+                    message
+                    <br>
+                </label>
+                <textarea name="message" placeholder="say something"></textarea>
+                <br>
+                <button class="emailFormSubmit" name="submit" type="submit">Wyślij</button>
+            </form>
+            </section>
+            <footer class="footer">
+                <input class="return" type="button" value="Return" onclick="history.back()">
+            </footer>
+        </div>
+    </body>
+</html>
