@@ -1,0 +1,60 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+    gap: 1.2rem;
+    list-style: none;
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.buttonBlue{
+    background-color: blue;
+    color: white;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 5rem;
+    text-decoration: none;
+    border: none;
+}
+
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 6rem;
+}
+
+
+#hero p{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#hero img{
+    max-width: 100%;
+}
+
+.mainInput{
+    border-radius: 6rem;
+    padding: 1.2rem 1rem 1.2rem 1rem;
+    border: 1px solid rgba(0, 0, 0, 2);
+    color: #aaa;
+    background-color: #fafafa;
+    margin-right: 1rem;
+}
