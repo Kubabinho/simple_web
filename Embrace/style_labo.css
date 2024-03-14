@@ -6,6 +6,8 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-bottom: 1px solid #00000033;
+    padding-bottom: 1rem;
 }
 
 #menu{
@@ -34,6 +36,9 @@ body{
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
+    margin-top: 5rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
 }
 
 h1{
@@ -57,4 +62,53 @@ h1{
     color: #aaa;
     background-color: #fafafa;
     margin-right: 1rem;
+    width: 20rem;
+}
+
+#partners{
+    background-color: #FAFAFA;
+}
+
+#h2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.brands{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#commitments{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#lernMore{
+    font-size: 1.5rem;
+    color: #3461FF;
+    text-decoration: none;
+    border: none;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.6);
 }
