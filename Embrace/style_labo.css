@@ -112,3 +112,24 @@ p{
     font-size: 1.5rem;
     color: rgba(0, 0, 0, 0.6);
 }
+
+#howItWorkes{
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+    justify-items: center;
+    align-items: center;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    margin-top: 9rem;
+}
+
+#workImgs div{
+    padding-bottom: 6rem;
+}
+
+.work div{
+    padding-bottom: 3rem;
+}
+#workLeft p{
+    padding-bottom: 5rem;
+}
