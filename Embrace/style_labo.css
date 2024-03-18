@@ -36,12 +36,9 @@ body{
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
-    margin-top: 5rem;
-    margin-left: 12rem;
-    margin-right: 12rem;
 }
 
-h1{
+#hero h1{
     font-size: 6rem;
 }
 
@@ -62,19 +59,18 @@ h1{
     color: #aaa;
     background-color: #fafafa;
     margin-right: 1rem;
-    width: 20rem;
 }
 
 #partners{
     background-color: #FAFAFA;
 }
 
-#h2{
+.sectionTitle{
     font-size: 2rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 7rem;
+
 }
 
 .brands{
@@ -82,9 +78,7 @@ h1{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    margin-top: 5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+
 }
 
 #commitments{
@@ -92,9 +86,7 @@ h1{
     grid-template-columns: 1fr 1fr 2fr;
     justify-items: center;
     align-items: center;
-    margin-top: 10rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+
 }
 
 #lernMore{
@@ -105,7 +97,7 @@ h1{
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 p{
@@ -115,21 +107,74 @@ p{
 
 #howItWorkes{
     display: grid;
-    grid-template-columns: 3fr 1fr 3fr;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
-    margin-left: 9rem;
-    margin-right: 9rem;
-    margin-top: 9rem;
+    gap: 4rem;
+
 }
 
-#workImgs div{
-    padding-bottom: 6rem;
+#ctaban{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: gray;
 }
 
-.work div{
-    padding-bottom: 3rem;
+
+@media screen and (max-width: 500px) {
+    #hero{
+        grid-template-columns: 1fr;
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    #header{
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    #menu{
+        flex-direction: column;
+    }
+    .brands{
+        grid-template-columns: 1fr;
+    }
+    .sectionTitle{
+        text-align: center;
+    }
+    #commitments{
+        grid-template-columns: 1fr;
+        text-align: center;
+    
+    }
+    #howItWorkes{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .test{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
-#workLeft p{
-    padding-bottom: 5rem;
+
+@media screen and (max-width: 800px) {
+    #menu{
+        flex-direction: column;
+    }
+    
+}
+
+.test{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.test2{
+    padding-top: 2rem;
+}
+h3{
+    font-size: 2rem
 }
