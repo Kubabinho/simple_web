@@ -36,6 +36,9 @@ body{
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
 }
 
 #hero h1{
@@ -63,6 +66,11 @@ body{
 
 #partners{
     background-color: #FAFAFA;
+    padding-bottom: 5rem;
+}
+
+#partners div{
+    margin-top: 5rem;
 }
 
 .sectionTitle{
@@ -86,6 +94,8 @@ body{
     grid-template-columns: 1fr 1fr 2fr;
     justify-items: center;
     align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 
 }
 
@@ -111,23 +121,35 @@ p{
     justify-items: center;
     align-items: center;
     gap: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 
 }
+#workLeft img{
+    max-width: 100%;
+}
 
-#ctaban{
+#OurWorkImages{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    background-color: gray;
 }
 
+#OurWork{
+    text-align: center;
+    padding-bottom: 10rem;
+}
 
 @media screen and (max-width: 500px) {
     #hero{
         grid-template-columns: 1fr;
         margin-top: 4rem;
         text-align: center;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 
     #header{
@@ -152,8 +174,19 @@ p{
     #howItWorkes{
         grid-template-columns: 1fr;
         text-align: center;
+        margin-left: 0%;
+        margin-right: 0%;
+        gap: 0%;
     }
-    .test{
+    .workRightDiv{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .workRightImg{
+        padding-top: 0%;
+    }
+    #OurWorkImages{
         display: grid;
         grid-template-columns: 1fr;
     }
@@ -166,13 +199,13 @@ p{
     
 }
 
-.test{
+.workRightDiv{
     display: flex;
     flex-direction: row;
     gap: 2rem;
 }
 
-.test2{
+.workRightImg{
     padding-top: 2rem;
 }
 h3{
